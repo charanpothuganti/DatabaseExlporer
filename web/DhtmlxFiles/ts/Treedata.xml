@@ -1,0 +1,6 @@
+<tree id="t">
+  <item text="Connection" id="con">
+    <item text="Oracle" id="oracle"></item>
+    <item text="SqlServer" id="sqls"></item>
+  </item>
+</tree>
