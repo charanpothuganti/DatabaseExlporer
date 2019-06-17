@@ -80,6 +80,7 @@ module com.erwin.dbexplorer {
       this.main_tree.setImagePath("./DhtmlxFiles/codebase/imgs/dhxtree_material/");
       this.main_tree.enableContextMenu(this.myMenu);
       this.main_tree.load("./DhtmlxFiles/ts/Treedata.xml", "XML");
+      this.main_tree.setXMLAutoLoading("./DhtmlxFiles/ts/Treedata.xml");
       this.main_tree.enableDragAndDrop(true);
       this.main_tree.enableMercyDrag(true);
       this.main_tree.attachEvent("onRightClick", (id, ind, obj) => {
